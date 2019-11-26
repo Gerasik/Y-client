@@ -1,0 +1,42 @@
+.clip
+  width: 320px
+  position: relative
+  background-color: #ffffff
+  border-radius: 5px
+  display: flex
+  flex-direction: column
+  overflow: hidden
+  &__title
+    position: absolute
+    top: 4%
+    font-size: 16px
+    font-weight: bold
+    width: 100%
+    text-align: center
+    background-color: #00760ed1
+    line-height: 26px
+    color: wheat
+    text-decoration: none
+  span
+    display: flex
+    align-items: center
+    padding: 10px 0 5px 20px
+  &__description
+    padding: 0 20px
+    font-size: 14px
+    max-height: 80px
+    overflow: auto
+  svg
+    padding-right: 20px
+
+@media screen and (max-width: 1000px)
+  .clip
+    width: 290px
+
+@media screen and (max-width: 880px)
+  .clip
+    width: 240px
+
+@media screen and (max-width: 880px)
+  .clip
+    width: 270px

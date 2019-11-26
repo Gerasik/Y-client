@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppSlider.prototype.render Should be render correctly 1`] = `"<section class=\\"undefined\\"></section>"`;
+
+exports[`AppSlider.prototype.render Should be render slide 1`] = `"<section class=\\"undefined\\"><div class=\\"undefined__slide\\"></div></section>"`;
+
+exports[`AppSlider.prototype.render Should be render slider pagination 1`] = `"<section class=\\"undefined\\"><div class=\\"undefined__slide\\"></div></section><ul class=\\"pagination\\"><li class=\\"pagination__prev\\"><button>&lt;</button></li><li class=\\"pagination__curr\\"><button>1</button></li><li class=\\"pagination__next-page\\"><button>2</button></li><li class=\\"pagination__next\\"><button>&gt;</button></li></ul>"`;
